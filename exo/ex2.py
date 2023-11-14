@@ -1,0 +1,5 @@
+chain = input("Saisir une phrase")
+print(chain.lower())
+print(chain.upper())
+chainlist = chain.split()
+print(len(chainlist))
