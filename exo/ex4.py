@@ -9,7 +9,10 @@ def inf(a,b):
         return a
     else:
         return b
-
 list = []
+a = 0
+b = 10
+localmin = b
+localmax = a
 for i in range(0,10):
-    list.append(random.randint(0,10))
+    list.append(random.randint(a,b))
